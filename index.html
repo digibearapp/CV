@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <link rel="stylesheet" href="./style.css" />
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Font START  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Font END  -->
+    <title>CV</title>
+  </head>
+
+  <body id="content">
+    <section class="container">
+      <!-- :::::::::: Profile START :::::::::: -->
+      <div class="profile_container">
+        <div class="profile_info">
+          <h1>Téodor Todorov</h1>
+          <h2>Développeur Full Stack</h2>
+          <!-- Contact START -->
+          <div class="profile_contact_grid">
+            <!-- First row -->
+            <div class="profile_contact_info">
+              <img
+                class="profile_contact_icon"
+                src="./icons/smartphone-duotone.svg"
+                alt="Icône de téléphone"
+              />
+              <span class="profile_contact_description"
+                >(+352) 661 128 535</span
+              >
+            </div>
+            <div class="profile_contact_info">
+              <img
+                class="profile_contact_icon"
+                src="./icons/envelope-duotone.svg"
+                alt="Icône d'enveloppe"
+              />
+              <span class="profile_contact_description"
+                >teodor@digibear.tv</span
+              >
+            </div>
+            <!-- Second row -->
+            <div class="profile_contact_info">
+              <img
+                class="profile_contact_icon"
+                src="./icons/gift-duotone.svg"
+                alt="Icône de cadeau"
+              />
+              <span class="profile_contact_description"
+                >04/02/1998 (26 ans)</span
+              >
+            </div>
+            <div class="profile_contact_info">
+              <img
+                class="profile_contact_icon"
+                src="./icons/pin-map-duotone.svg"
+                alt="Icône de localisation"
+              />
+              <span class="profile_contact_description"
+                >4D13, Rue de la Frontière,<br />Guerlange (Belgique)</span
+              >
+            </div>
+          </div>
+          <!-- Contact END -->
+        </div>
+        <img
+          class="profile_img"
+          src="./images/profile.jpg"
+          alt="Photo de profil de Téodor Todorov"
+        />
+      </section>
+      <!-- :::::::::: Profile END :::::::::: -->
+
+      <hr class="profile_divider" />
+
+      <!-- :::::::::: Studies START :::::::::: -->
+      <section class="content_container">
+        <h1>Études</h1>
+        <hr class="content_title_underline" />
+
+        <div class="content_grid">
+          <!-- IESN START -->
+          <div class="content_item">
+            <div class="content_header">
+              <span class="content_place">IESN (Hénallux), Namur</span>
+              <span class="content_time">01/09/2016 - 01/09/2019</span>
+            </div>
+            <div class="content_description">
+              Bachelier en informatique de gestion obtenu avec distinction.
+            </div>
+            <div class="timeline timeline--radius-top"></div>
+            <div class="timeline_dot"></div>
+          </div>
+          <!-- IESN END -->
+
+          <!-- Athenée Royal d'Arlon START -->
+          <div class="content_item">
+            <div class="content_header">
+              <div class="content_place">Athénée Royal d'Arlon, Arlon</div>
+              <span class="content_time">2016</span>
+            </div>
+            <div class="content_description">
+              Obtention du certificat d'enseignement secondaire supérieur
+              (C.E.S.S.).
+            </div>
+            <div class="timeline timeline--radius-bottom"></div>
+            <div class="timeline_dot"></div>
+          </div>
+          <!-- Athenée Royal d'Arlon END -->
+        </div>
+      </section>
+      <!-- :::::::::: Studies END :::::::::: -->
+
+      <!-- :::::::::: Experience START :::::::::: -->
+      <section class="content_container">
+        <h1>Expériences</h1>
+        <hr class="content_title_underline" />
+
+        <div class="content_grid">
+          <!-- Digibear START -->
+          <div class="content_item">
+            <div class="content_header">
+              <div class="content_place">(Projet Personnel) Développement d'une plateforme de streaming : Digibear.</div>
+              <span class="content_time">2022 - 2024</span>
+            </div>
+            <div class="content_description">
+              Développement d'une plateforme de vidéo à la demande.<br />
+              Backend : Architecture en microservices Go + NATS et PostgreSQL.<br />
+              Frontend : Qwik + TailwindCSS.<br />
+              (Possibilité de présenter le projet lors de l'entretien).
+            </div>
+            <div class="timeline timeline--radius-top"></div>
+            <div class="timeline_dot"></div>
+          </div>
+          <!-- Digibear END -->
+
+          <!-- Projets personnels START -->
+          <div class="content_item">
+            <div class="content_header">
+              <div class="content_place">(Projets Personnels) Développement d'une librarie d'icônes / Jeux vidéos / Court-métrage d'animation 3D</div>
+              <span class="content_time">2019 - 2022</span>
+            </div>
+            <div class="content_description">
+              Création d'une bibliothèque de 1457 icônes (3 styles : Line, Fill et Duotone) pour React, Vue, Angular, Qwik et Flutter.<br />
+              Création d'un jeu vidéo iOS et Android sous Unity3D.<br />
+              Création d'un court-métrage d'animation 3D.<br />
+            </div>
+            <div class="timeline timeline--radius-none"></div>
+            <div class="timeline_dot"></div>
+          </div>
+          <!-- Projets personnels END -->
+
+          <!-- CGI - Parlement Européen START -->
+          <div class="content_item">
+            <div class="content_header">
+              <div class="content_place">(Stage) Développeur Full Stack, CGI, Parlement Européen (Kirchberg, Luxembourg)</div>
+              <span class="content_time">04/02/2019 - 18/05/2019</span>
+            </div>
+            <div class="content_description">
+              Refonte d'une application web destinée à la génération de documents sous divers formats (PDF, DOCX, ODT, etc.).
+            </div>
+            <div class="timeline timeline--radius-bottom"></div>
+            <div class="timeline_dot"></div>
+          </div>
+          <!-- CGI - Parlement Européen END -->
+        </div>
+      </section>
+      <!-- :::::::::: Experience END :::::::::: -->
+
+      <!-- :::::::::: Skills START :::::::::: -->
+      <section class="content_container">
+        <h1>Compétences</h1>
+        <hr class="content_title_underline" />
+
+        <div class="skills_rows">
+          <div class="skills_row">
+            <span class="skills_header">Français : </span>
+            <span>Langue maternelle</span>
+          </div>
+          <div class="skills_row">
+            <span class="skills_header">Anglais : </span>
+            <span>Ecrit/compréhension (B2) - Oral (B1)</span>
+          </div>
+          <div class="skills_row">
+            <span class="skills_header">Langages :</span>
+            <span>JavaScript/TypeScript(+++), Go(++), PostgreSQL(++), Java(++), Dart(+), C#(+)</span>
+          </div>
+          <div class="skills_row">
+            <span class="skills_header">Frameworks :</span>
+            <span>Qwik(+++), React/NextJS(+++), Angular(++), Flutter(++), Vue(+)</span>
+          </div>
+          <div class="skills_row">
+            <span class="skills_header">Outils :</span>
+            <span>VSCode(+++), Git(+), Docker(+), NATS(+)</span>
+          </div>
+        </div>
+      </section>
+      <!-- :::::::::: Skills END :::::::::: -->
+
+      <!-- :::::::::: Hobbies START :::::::::: -->
+      <section class="content_container">
+        <h1>Hobbies</h1>
+        <hr class="content_title_underline" />
+
+        <div class="hobbies_row">
+          <span class="hobby_header">Cinéma, Football, Pâtisserie, Modélisation 3D.</span>
+        </div>
+      </section>
+      <!-- :::::::::: Hobbies END :::::::::: -->
+    </section>
+  </body>
+</html>
