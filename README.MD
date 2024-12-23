@@ -1,6 +1,6 @@
-# 💼 CV à destination d'Apart / Design Studio
+# 💼 CV
 
-Ce repository contient l'implémentation HTML/CSS du CV de Téodor Todorov pour Apart / Design Studio.
+Ce repository contient l'implémentation HTML/CSS du CV de Téodor Todorov.
 
 ## 📄 Comment générer le PDF
 
